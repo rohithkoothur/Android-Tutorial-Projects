@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">DroidCafe</string>
+    <string name="droid_desserts">Droid Desserts</string>
+    <string name="donet_are_super">Donet are super</string>
+    <string name="icecream_are_super" />
+    <string name="icecream_are_supe">ice_Texx</string>
+    <string name="donet_text">Donet are abcdefghth</string>
+    <string name="icetxt">icecreams are best dessert</string>
+    <string name="caketxt">cake are one of important dessert</string>
+    <string name="your_order">Your Order</string>
+    <string name="name">Name</string>
+    <string name="address">Address</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="notes">Notes</string>
+    <string name="choose_delivey_mode">Choose delivey mode</string>
+    <string name="same_day_messenger_service">same day messenger service</string>
+    <string name="next_day_service">Next Day Service</string>
+    <string name="pick_up">Pick UP</string>
+
+
+    <string-array name="label_array">
+
+        <item>Home</item>
+        <item>Work</item>
+        <item>Mobile</item>
+        <item>Other</item>
+    </string-array>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="contact_txt">Contact</string>
+    <string name="favorite">Favorite</string>
+    <string name="status">Status</string>
+    <string name="order">Order</string>
+</resources>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/desset_textview"
+        android:layout_width="151dp"
+        android:layout_height="45dp"
+        android:text="@string/droid_desserts"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="46dp" />
+
+    <ImageView
+        android:id="@+id/donet"
+        android:layout_width="135dp"
+        android:layout_height="158dp"
+        android:onClick="donetClick"
+
+        android:contentDescription="Donets are flazed"
+        android:src="@drawable/donut"
+        app:layout_constraintTop_toBottomOf="@+id/desset_textview"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="36dp" />
+
+    <ImageView
+        android:id="@+id/icecream"
+        android:layout_width="135dp"
+        android:layout_height="158dp"
+        android:onClick="icecreamClick"
+
+
+        android:layout_marginTop="36dp"
+        android:contentDescription="Donets are flazed"
+        android:src="@drawable/icecream"
+        app:layout_constraintTop_toBottomOf="@+id/donet"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="36dp" />
+
+
+    <ImageView
+        android:id="@+id/cake"
+        android:layout_width="135dp"
+        android:layout_height="158dp"
+        android:layout_marginTop="36dp"
+        android:onClick="cakeClick"
+
+
+        android:contentDescription="Donets are flazed"
+        android:src="@drawable/cake"
+        app:layout_constraintTop_toBottomOf="@+id/icecream"
+        tools:layout_editor_absoluteX="36dp" />
+
+    <TextView
+        android:id="@+id/donet_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:text="@string/donet_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.561"
+        app:layout_constraintStart_toEndOf="@+id/donet"
+        app:layout_constraintTop_toBottomOf="@+id/desset_textview" />
+
+
+    <TextView
+        android:id="@+id/icecream_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="172dp"
+        android:text="@string/icetxt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toEndOf="@+id/icecream"
+        app:layout_constraintTop_toBottomOf="@+id/donet_textview" />
+
+
+    <TextView
+        android:id="@+id/cake_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="172dp"
+        android:text="@string/caketxt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/cake"
+        app:layout_constraintTop_toBottomOf="@+id/icecream_textview" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="52dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="32dp"
+        android:clickable="true"
+        android:src="@drawable/ic_shopping"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.826"
+        app:layout_constraintStart_toStartOf="parent"
+        android:onClick="shoppingFAB"
+
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
